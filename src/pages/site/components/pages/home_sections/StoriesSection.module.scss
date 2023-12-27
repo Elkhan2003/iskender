@@ -1,0 +1,35 @@
+.section {
+	margin-bottom: 50px;
+	.content {
+		.surprises {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			gap: 13px;
+			.surprise {
+				width: 100%;
+				max-width: 75px;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 7px;
+
+				.photo {
+					width: 60px;
+					height: auto;
+				}
+
+				.text {
+					color: #000;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+		}
+	}
+}

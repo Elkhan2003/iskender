@@ -1,8 +1,9 @@
-import photo_1 from "@/src/assets/salesHits/photo_1.png";
+import { StaticImageData } from 'next/image';
+import photo_1 from '@/assets/salesHits/photo_1.png';
 
 interface DataSalesHitsType {
 	id: number;
-	img: string;
+	img: StaticImageData;
 	text: string;
 	price: number;
 	isLike: boolean;
@@ -15,7 +16,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 1,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+		text: 'Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..',
 		price: 1294,
 		isLike: false,
 		isStock: true,
@@ -25,7 +26,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 2,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		isLike: true,
 		isStock: true,
@@ -35,7 +36,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 3,
 		img: photo_1,
-		text: "Держатель для лейки ",
+		text: 'Держатель для лейки ',
 		price: 1294,
 		isLike: false,
 		isStock: false,
@@ -45,7 +46,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 4,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		isLike: false,
 		isStock: true,
@@ -55,7 +56,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 5,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		isLike: false,
 		isStock: true,
@@ -65,7 +66,7 @@ export const dataSalesHits: DataSalesHitsType[] = [
 	{
 		id: 6,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		isLike: false,
 		isStock: true,

@@ -1,8 +1,9 @@
-import photo_1 from "@/src/assets/salesHits/photo_1.png";
+import { StaticImageData } from 'next/image';
+import photo_1 from '@/assets/salesHits/photo_1.png';
 
 interface DataAuctionItemsType {
 	id: number;
-	img: string;
+	img: StaticImageData;
 	text: string;
 	price: number;
 	reducedPrice: number;
@@ -16,7 +17,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 1,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+		text: 'Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..',
 		price: 1294,
 		reducedPrice: 1294,
 		isLike: false,
@@ -27,7 +28,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 2,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		reducedPrice: 500,
 		isLike: true,
@@ -38,7 +39,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 3,
 		img: photo_1,
-		text: "Держатель для лейки ",
+		text: 'Держатель для лейки ',
 		price: 1294,
 		reducedPrice: 500,
 		isLike: false,
@@ -49,7 +50,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 4,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		reducedPrice: 500,
 		isLike: false,
@@ -60,7 +61,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 5,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		reducedPrice: 500,
 		isLike: false,
@@ -71,7 +72,7 @@ export const dataAuctionItems: DataAuctionItemsType[] = [
 	{
 		id: 6,
 		img: photo_1,
-		text: "Держатель для лейки BOOU PG605 ",
+		text: 'Держатель для лейки BOOU PG605 ',
 		price: 1294,
 		reducedPrice: 500,
 		isLike: false,

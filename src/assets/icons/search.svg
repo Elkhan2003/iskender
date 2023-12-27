@@ -1,4 +1,9 @@
-<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="9.77566" cy="8.82491" r="6.74142" stroke="#949494" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M14.4644 13.8638L17.1075 16.4999" stroke="#949494" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+	<title>Новый проект</title>
+	<defs>
+		<image width="304" height="288" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOSAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOS43NzU2NiIgY3k9IjguODI0OTEiIHI9IjYuNzQxNDIiIHN0cm9rZT0iIzk0OTQ5NCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTQuNDY0NCAxMy44NjM4TDE3LjEwNzUgMTYuNDk5OSIgc3Ryb2tlPSIjOTQ5NDk0IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="/>
+	</defs>
+	<style>
+	</style>
+	<use id="search" href="#img1" transform="matrix(.961,0,0,.961,-27,-14)"/>
 </svg>
